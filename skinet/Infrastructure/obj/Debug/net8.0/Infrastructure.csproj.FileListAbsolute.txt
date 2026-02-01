@@ -13,3 +13,4 @@ C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Inf
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

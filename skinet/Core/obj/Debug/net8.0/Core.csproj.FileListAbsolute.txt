@@ -9,3 +9,4 @@ C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Cor
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Core\obj\Debug\net8.0\refint\Core.dll
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Core\obj\Debug\net8.0\Core.pdb
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\skinet\Core\obj\Debug\net8.0\Core.sourcelink.json
