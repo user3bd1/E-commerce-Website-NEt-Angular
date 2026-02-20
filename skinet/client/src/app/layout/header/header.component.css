@@ -12,3 +12,9 @@
   height: 32px;
   font-size: 32px;
 }
+
+a {
+  &.active {
+    color: blueviolet;
+  }
+}

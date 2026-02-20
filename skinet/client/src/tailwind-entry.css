@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+/* Optional: Add any @theme { ... } customizations here if you have them */
+/* @theme { --color-primary: #3b82f6; } etc. */
+
+/* Move your global @apply classes here if they were in styles.scss */
+.container {
+  @apply mx-auto max-w-screen-2xl;
+}
+
+.match-input-height {
+  height: var(--mat-form-field-container-height) !important;
+}
+
+.text-primary {
+  @apply text-blue-700;
+}
