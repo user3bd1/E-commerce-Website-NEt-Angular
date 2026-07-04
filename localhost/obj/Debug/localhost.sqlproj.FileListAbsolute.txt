@@ -1,0 +1,5 @@
+c:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\localhost\bin\Debug\localhost.dacpac
+c:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\localhost\obj\Debug\Model.xml
+c:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\localhost\obj\Debug\refactor.xml
+c:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\localhost\obj\Debug\postdeploy.sql
+c:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\cource .Net-Angular\localhost\obj\Debug\predeploy.sql

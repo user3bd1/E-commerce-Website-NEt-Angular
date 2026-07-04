@@ -1,1 +1,6 @@
-{}
+{
+  "dataworkspace.excludedProjects": [
+    "localhost/localhost.sqlproj",
+    "skinet/skinet/skinet.sqlproj"
+  ]
+}
