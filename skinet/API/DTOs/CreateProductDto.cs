@@ -8,7 +8,7 @@ public class CreateProductDto
     public string Name {get;set;} = string.Empty;
     [Required]
     public string Description {get;set;} = string.Empty;
-    [Range(0.01,double.MaxValue, ErrorMessage ="proce must be greater than 0")]
+    [Range(0.01,double.MaxValue, ErrorMessage ="price must be greater than 0")]
     public decimal Price {get;set;}
     [Required]
     public string PictureUrl {get;set;} = string.Empty;

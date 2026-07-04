@@ -4,7 +4,8 @@ using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using API.Errors;
-;
+using StackExchange.Redis;
+using Infrastructure.CartService;
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -17,6 +18,14 @@ builder.Services.AddDbContext<StoreContext>(opt=> opt.UseSqlServer(builder.Confi
 builder.Services.AddScoped<IProductRepository,ProductRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
 builder.Services.AddCors();
+builder.Services.AddSingleton<IConnectionMultiplexer>(config => {
+    var connectionString = builder.Configuration.GetConnectionString("Redis")?? throw new Exception("cannt get redis conn");
+    var configuration = ConfigurationOptions.Parse(connectionString,true);
+    return ConnectionMultiplexer.Connect(configuration);
+     
+});
+
+builder.Services.AddSingleton<ICartService, CartService>();
 
 
 var app = builder.Build();
